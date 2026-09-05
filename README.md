@@ -1,5 +1,5 @@
 # Hard Conversation
-
+![HC](HC-logo.png)
 **Tagline:** Practice before it matters.
 
 Hard Conversation is a controlled simulation environment where users rehearse high-stakes interpersonal interactions (like asking for a raise, or firing an employee). It is an adaptive roleplay engine that pushes back realistically, observes your responses, and provides actionable, evidence-based feedback.
