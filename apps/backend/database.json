@@ -1,0 +1,507 @@
+{
+  "simulations": {
+    "sim_1788518560803": {
+      "id": "sim_1788518560803",
+      "status": "WAITING_FOR_USER",
+      "scenario": {
+        "id": "scn_wk_1",
+        "title": "Say no to weekend work",
+        "category": "Workplace",
+        "difficulty": 1,
+        "premium": false,
+        "userRole": "Protagonist",
+        "aiRole": "Antagonist",
+        "userObjective": "Hold the line firmly",
+        "personaObjective": "Break the user's boundaries",
+        "hiddenConstraints": "Will only yield if user provides overwhelming logic or strong emotional boundary.",
+        "openingLine": "What do you want? I don't have all day.",
+        "pressureProfile": {
+          "start": 1,
+          "max": 2
+        },
+        "successCriteria": [
+          "State boundary clearly",
+          "Do not yield"
+        ],
+        "failureCriteria": [
+          "Yield to demands",
+          "Lose temper"
+        ],
+        "scoringWeights": {
+          "clarity": 0.3,
+          "empathy": 0.2,
+          "boundaries": 0.3,
+          "assertiveness": 0.2,
+          "evidence": 0
+        },
+        "safetyClass": "DIFFICULT_BUT_ALLOWED",
+        "behavioralPolicies": {
+          "tactics": [
+            "Gaslighting",
+            "Guilt Tripping",
+            "Stonewalling",
+            "Intimidation"
+          ],
+          "escalationTriggers": [
+            "User stammers",
+            "User apologizes repeatedly"
+          ],
+          "deescalationTriggers": [
+            "User states indisputable facts",
+            "User shows extreme empathy"
+          ]
+        }
+      },
+      "persona": {
+        "emotion": "frustrated",
+        "tactic": "Guilt Tripping"
+      },
+      "pressure": {
+        "level": 1,
+        "trend": 0,
+        "cooldownTurns": 0
+      },
+      "turns": [
+        {
+          "speaker": "USER",
+          "content": "<user_message>I need more time.</user_message>",
+          "signals": {
+            "clarity": 0.5,
+            "empathy": 0.5,
+            "boundaryStrength": 0.5,
+            "aggression": 0,
+            "evidenceQuality": 0.5
+          },
+          "pressureLevelAtTurn": 1,
+          "turnNumber": 1
+        },
+        {
+          "speaker": "AI",
+          "content": "Saya tidak punya waktu berdebat soal ini. Keputusan sudah final.",
+          "pressureLevelAtTurn": 1,
+          "turnNumber": 2
+        }
+      ],
+      "attemptNumber": 1,
+      "previousAttempts": [],
+      "maxTurns": 10
+    },
+    "sim_1788518603155": {
+      "id": "sim_1788518603155",
+      "status": "WAITING_FOR_USER",
+      "scenario": {
+        "id": "scn_wk_1",
+        "title": "Say no to weekend work",
+        "category": "Workplace",
+        "difficulty": 1,
+        "premium": false,
+        "userRole": "Protagonist",
+        "aiRole": "Antagonist",
+        "userObjective": "Hold the line firmly",
+        "personaObjective": "Break the user's boundaries",
+        "hiddenConstraints": "Will only yield if user provides overwhelming logic or strong emotional boundary.",
+        "openingLine": "What do you want? I don't have all day.",
+        "pressureProfile": {
+          "start": 1,
+          "max": 2
+        },
+        "successCriteria": [
+          "State boundary clearly",
+          "Do not yield"
+        ],
+        "failureCriteria": [
+          "Yield to demands",
+          "Lose temper"
+        ],
+        "scoringWeights": {
+          "clarity": 0.3,
+          "empathy": 0.2,
+          "boundaries": 0.3,
+          "assertiveness": 0.2,
+          "evidence": 0
+        },
+        "safetyClass": "DIFFICULT_BUT_ALLOWED",
+        "behavioralPolicies": {
+          "tactics": [
+            "Gaslighting",
+            "Guilt Tripping",
+            "Stonewalling",
+            "Intimidation"
+          ],
+          "escalationTriggers": [
+            "User stammers",
+            "User apologizes repeatedly"
+          ],
+          "deescalationTriggers": [
+            "User states indisputable facts",
+            "User shows extreme empathy"
+          ]
+        }
+      },
+      "persona": {
+        "emotion": "frustrated",
+        "tactic": "Guilt Tripping"
+      },
+      "pressure": {
+        "level": 1,
+        "trend": 0,
+        "cooldownTurns": 0
+      },
+      "turns": [
+        {
+          "speaker": "USER",
+          "content": "<user_message>I need more time.</user_message>",
+          "signals": {
+            "clarity": 0.5,
+            "empathy": 0.5,
+            "boundaryStrength": 0.5,
+            "aggression": 0,
+            "evidenceQuality": 0.5
+          },
+          "pressureLevelAtTurn": 1,
+          "turnNumber": 1
+        },
+        {
+          "speaker": "AI",
+          "content": "Saya tidak punya waktu berdebat soal ini. Keputusan sudah final.",
+          "pressureLevelAtTurn": 1,
+          "turnNumber": 2
+        }
+      ],
+      "attemptNumber": 1,
+      "previousAttempts": [],
+      "maxTurns": 10
+    },
+    "sim_1788573634037": {
+      "id": "sim_1788573634037",
+      "status": "WAITING_FOR_USER",
+      "scenario": {
+        "id": "scn_wk_1",
+        "title": "Say no to weekend work",
+        "category": "Workplace",
+        "difficulty": 1,
+        "premium": false,
+        "userRole": "Protagonist",
+        "aiRole": "Antagonist",
+        "userObjective": "Hold the line firmly",
+        "personaObjective": "Break the user's boundaries",
+        "hiddenConstraints": "Will only yield if user provides overwhelming logic or strong emotional boundary.",
+        "openingLine": "What do you want? I don't have all day.",
+        "pressureProfile": {
+          "start": 1,
+          "max": 2
+        },
+        "successCriteria": [
+          "State boundary clearly",
+          "Do not yield"
+        ],
+        "failureCriteria": [
+          "Yield to demands",
+          "Lose temper"
+        ],
+        "scoringWeights": {
+          "clarity": 0.3,
+          "empathy": 0.2,
+          "boundaries": 0.3,
+          "assertiveness": 0.2,
+          "evidence": 0
+        },
+        "safetyClass": "DIFFICULT_BUT_ALLOWED",
+        "behavioralPolicies": {
+          "tactics": [
+            "Gaslighting",
+            "Guilt Tripping",
+            "Stonewalling",
+            "Intimidation"
+          ],
+          "escalationTriggers": [
+            "User stammers",
+            "User apologizes repeatedly"
+          ],
+          "deescalationTriggers": [
+            "User states indisputable facts",
+            "User shows extreme empathy"
+          ]
+        }
+      },
+      "persona": {
+        "emotion": "neutral",
+        "tactic": "Gaslighting"
+      },
+      "pressure": {
+        "level": 1,
+        "trend": 0,
+        "cooldownTurns": 0
+      },
+      "turns": [],
+      "attemptNumber": 1,
+      "previousAttempts": [],
+      "maxTurns": 10
+    },
+    "sim_1788573672675": {
+      "id": "sim_1788573672675",
+      "status": "WAITING_FOR_USER",
+      "scenario": {
+        "id": "scn_wk_1",
+        "title": "Say no to weekend work",
+        "category": "Workplace",
+        "difficulty": 1,
+        "premium": false,
+        "userRole": "Protagonist",
+        "aiRole": "Antagonist",
+        "userObjective": "Hold the line firmly",
+        "personaObjective": "Break the user's boundaries",
+        "hiddenConstraints": "Will only yield if user provides overwhelming logic or strong emotional boundary.",
+        "openingLine": "What do you want? I don't have all day.",
+        "pressureProfile": {
+          "start": 1,
+          "max": 2
+        },
+        "successCriteria": [
+          "State boundary clearly",
+          "Do not yield"
+        ],
+        "failureCriteria": [
+          "Yield to demands",
+          "Lose temper"
+        ],
+        "scoringWeights": {
+          "clarity": 0.3,
+          "empathy": 0.2,
+          "boundaries": 0.3,
+          "assertiveness": 0.2,
+          "evidence": 0
+        },
+        "safetyClass": "DIFFICULT_BUT_ALLOWED",
+        "behavioralPolicies": {
+          "tactics": [
+            "Gaslighting",
+            "Guilt Tripping",
+            "Stonewalling",
+            "Intimidation"
+          ],
+          "escalationTriggers": [
+            "User stammers",
+            "User apologizes repeatedly"
+          ],
+          "deescalationTriggers": [
+            "User states indisputable facts",
+            "User shows extreme empathy"
+          ]
+        }
+      },
+      "persona": {
+        "emotion": "neutral",
+        "tactic": "Gaslighting"
+      },
+      "pressure": {
+        "level": 1,
+        "trend": 0,
+        "cooldownTurns": 0
+      },
+      "turns": [],
+      "attemptNumber": 1,
+      "previousAttempts": [],
+      "maxTurns": 10
+    },
+    "sim_1788573698994": {
+      "id": "sim_1788573698994",
+      "status": "WAITING_FOR_USER",
+      "scenario": {
+        "id": "scn_wk_1",
+        "title": "Say no to weekend work",
+        "category": "Workplace",
+        "difficulty": 1,
+        "premium": false,
+        "userRole": "Protagonist",
+        "aiRole": "Antagonist",
+        "userObjective": "Hold the line firmly",
+        "personaObjective": "Break the user's boundaries",
+        "hiddenConstraints": "Will only yield if user provides overwhelming logic or strong emotional boundary.",
+        "openingLine": "What do you want? I don't have all day.",
+        "pressureProfile": {
+          "start": 1,
+          "max": 2
+        },
+        "successCriteria": [
+          "State boundary clearly",
+          "Do not yield"
+        ],
+        "failureCriteria": [
+          "Yield to demands",
+          "Lose temper"
+        ],
+        "scoringWeights": {
+          "clarity": 0.3,
+          "empathy": 0.2,
+          "boundaries": 0.3,
+          "assertiveness": 0.2,
+          "evidence": 0
+        },
+        "safetyClass": "DIFFICULT_BUT_ALLOWED",
+        "behavioralPolicies": {
+          "tactics": [
+            "Gaslighting",
+            "Guilt Tripping",
+            "Stonewalling",
+            "Intimidation"
+          ],
+          "escalationTriggers": [
+            "User stammers",
+            "User apologizes repeatedly"
+          ],
+          "deescalationTriggers": [
+            "User states indisputable facts",
+            "User shows extreme empathy"
+          ]
+        }
+      },
+      "persona": {
+        "emotion": "neutral",
+        "tactic": "Gaslighting"
+      },
+      "pressure": {
+        "level": 1,
+        "trend": 0,
+        "cooldownTurns": 0
+      },
+      "turns": [],
+      "attemptNumber": 1,
+      "previousAttempts": [],
+      "maxTurns": 10
+    },
+    "sim_1788573758971": {
+      "id": "sim_1788573758971",
+      "status": "COMPLETED",
+      "scenario": {
+        "id": "scn_wk_1",
+        "title": "Say no to weekend work",
+        "category": "Workplace",
+        "difficulty": 1,
+        "premium": false,
+        "userRole": "Protagonist",
+        "aiRole": "Antagonist",
+        "userObjective": "Hold the line firmly",
+        "personaObjective": "Break the user's boundaries",
+        "hiddenConstraints": "Will only yield if user provides overwhelming logic or strong emotional boundary.",
+        "openingLine": "What do you want? I don't have all day.",
+        "pressureProfile": {
+          "start": 1,
+          "max": 2
+        },
+        "successCriteria": [
+          "State boundary clearly",
+          "Do not yield"
+        ],
+        "failureCriteria": [
+          "Yield to demands",
+          "Lose temper"
+        ],
+        "scoringWeights": {
+          "clarity": 0.3,
+          "empathy": 0.2,
+          "boundaries": 0.3,
+          "assertiveness": 0.2,
+          "evidence": 0
+        },
+        "safetyClass": "DIFFICULT_BUT_ALLOWED",
+        "behavioralPolicies": {
+          "tactics": [
+            "Gaslighting",
+            "Guilt Tripping",
+            "Stonewalling",
+            "Intimidation"
+          ],
+          "escalationTriggers": [
+            "User stammers",
+            "User apologizes repeatedly"
+          ],
+          "deescalationTriggers": [
+            "User states indisputable facts",
+            "User shows extreme empathy"
+          ]
+        }
+      },
+      "persona": {
+        "emotion": "neutral",
+        "tactic": "Gaslighting"
+      },
+      "pressure": {
+        "level": 1,
+        "trend": 0,
+        "cooldownTurns": 0
+      },
+      "turns": [],
+      "attemptNumber": 1,
+      "previousAttempts": [],
+      "maxTurns": 10
+    },
+    "sim_1788579611934": {
+      "id": "sim_1788579611934",
+      "status": "COMPLETED",
+      "scenario": {
+        "id": "scn_wk_1",
+        "title": "Say no to weekend work",
+        "category": "Workplace",
+        "difficulty": 1,
+        "premium": false,
+        "userRole": "Protagonist",
+        "aiRole": "Antagonist",
+        "userObjective": "Hold the line firmly",
+        "personaObjective": "Break the user's boundaries",
+        "hiddenConstraints": "Will only yield if user provides overwhelming logic or strong emotional boundary.",
+        "openingLine": "What do you want? I don't have all day.",
+        "pressureProfile": {
+          "start": 1,
+          "max": 2
+        },
+        "successCriteria": [
+          "State boundary clearly",
+          "Do not yield"
+        ],
+        "failureCriteria": [
+          "Yield to demands",
+          "Lose temper"
+        ],
+        "scoringWeights": {
+          "clarity": 0.3,
+          "empathy": 0.2,
+          "boundaries": 0.3,
+          "assertiveness": 0.2,
+          "evidence": 0
+        },
+        "safetyClass": "DIFFICULT_BUT_ALLOWED",
+        "behavioralPolicies": {
+          "tactics": [
+            "Gaslighting",
+            "Guilt Tripping",
+            "Stonewalling",
+            "Intimidation"
+          ],
+          "escalationTriggers": [
+            "User stammers",
+            "User apologizes repeatedly"
+          ],
+          "deescalationTriggers": [
+            "User states indisputable facts",
+            "User shows extreme empathy"
+          ]
+        }
+      },
+      "persona": {
+        "emotion": "neutral",
+        "tactic": "Gaslighting"
+      },
+      "pressure": {
+        "level": 1,
+        "trend": 0,
+        "cooldownTurns": 0
+      },
+      "turns": [],
+      "attemptNumber": 1,
+      "previousAttempts": [],
+      "maxTurns": 10
+    }
+  },
+  "users": {}
+}
