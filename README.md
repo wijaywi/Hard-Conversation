@@ -15,7 +15,7 @@ Built for the **Shipaton 2026 Hackathon**.
 - **Dynamic Pressure System:** The AI's hostility and resistance adapt in real-time based on measurable signals extracted from the user's input (e.g., Clarity, Empathy, Boundary Strength). Yielding increases pressure; strong evidence paired with empathy de-escalates it.
 - **Actionable Evaluation:** At the end of a simulation, a heavier LLM evaluates the conversation based on scenario-specific mathematical weights, identifying your strengths, weaknesses, and the exact "turning point" of the conversation.
 - **Cinematic UI:** A minimalist, typography-heavy interface built to simulate a high-stakes environment, intentionally avoiding the standard "friendly chatbot" design.
-- **Monetization (RevenueCat):** Integrated with RevenueCat to offer a Premium tier that unlocks "Brutal Mode" (Level 5 Pressure) and unlimited practice sessions.
+- **Monetization (RevenueCat):** Integrated with RevenueCat to offer a Premium tier that unlocks Level 5 Pressure and unlimited practice sessions.
 
 ## Architecture
 
