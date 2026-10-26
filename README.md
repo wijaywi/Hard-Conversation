@@ -7,7 +7,7 @@
 
 Hard Conversation is a controlled simulation environment where users rehearse high-stakes interpersonal interactions (like asking for a raise, or firing an employee). It is an adaptive roleplay engine that pushes back realistically, observes your responses, and provides actionable, evidence-based feedback.
 
-Built for the **Shipaton 2026 Hackathon**.
+
 
 ## Features & Functionality
 
@@ -26,11 +26,6 @@ The project is structured as a modern Node.js/TypeScript monorepo:
 - **`packages/engine`**: The core deterministic Conversation Simulation Engine, State Machine, and LLM Adapter prompt contracts.
 - **`packages/scenarios`**: The library of highly structured scenario schemas that dictate AI behavior and success criteria.
 
-## Hackathon Categories Targeted
-
-- **Career Coaching (Leadership Heather Influencer Award):** Directly helps new and aspiring managers practice difficult workplace conversations and build confidence.
-- **HAMM Award:** Features a clear monetization strategy via a RevenueCat-powered premium subscription paywall for power users.
-- **Next Gen Award:** Fully open-source and publicly verifiable repository.
 
 ## Getting Started (Local Development)
 
